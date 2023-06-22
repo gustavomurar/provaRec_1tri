@@ -8,12 +8,19 @@
     */
 
     //ENTRADA
-
+    const kk = Number(prompt("Informe a quantidade de carros vendidos:").trim());
+    const kj = Number(prompt("Informe o valor total por carro vendido:").trim() .replace(",", "."));
+    const ki = Number(prompt("Informe o valor pago por mês de salário fixo:").trim() .replace(",", "."));
 
     //PROCESSAMENTO
-
+    const dd = kk * kj;
+    const uu = 5 / dd * 100;
+    const tt = uu * kk;
+    const qq = ki + tt + 300;
+    const ll = 27 / qq * 100;
+    const xx = qq - ll;
 
     //SAÍDA
-
+    alert(`Seu salário final foi de ${xx.toFixed(2) .replace(".", ",")}.`)
 
 </script>
