@@ -3,11 +3,14 @@
     //Elaborar um programa que pergunte ao usuário quantas horas e quantos minutos de duração possui uma partida. Calcule e informe a duração total da partida em número de minutos.
     
     //ENTRADA
-
+    const kk = Number(prompt("Informe quantas horas de duração foi essa partida").trim() .replace(",", "."));
+    const yy = Number(prompt("Informe quantos minutos de duração foi essa partida").trim());
 
     //PROCESSAMENTO
-
+    const kyk = kk * 60;
+    const yky = kyk + yy;
 
     //SAÍDA
+    alert(`A duração dessa partida foi ${yky.toFixed(0)} minutos.`);
     
 </script>
